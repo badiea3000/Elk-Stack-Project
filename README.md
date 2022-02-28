@@ -115,4 +115,3 @@ Copy files to /etc/ansible directory
 -	The /etc/ansible/hosts file must be updated to include the private IP Addresses of Web1, Web2, and Elk-Server.
 -	 Specify Web1 and Web2 as [webservers], and Elk-Server as [elk-server] in the etc/ansible/hosts file.
 -	Navigate to http://52.159.86.187:5601/app/kibana in order to check that the ELK server is running.
-![image](https://user-images.githubusercontent.com/100537728/155916453-4383a81c-35ee-47e6-8931-a21cb3fa9ab1.png)
