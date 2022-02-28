@@ -1,10 +1,19 @@
 The files in this repository were used to configure the network depicted below.
 
-Images/ElkStackDiagram.png
+![elkstackdiagram](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Diagrams/ElkStackDiagram.png)
+
+[ElkStackDiagram](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Diagrams/ElkStackDiagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the below files may be used to install only certain pieces of it, such as Filebeat.
 
--	-
+-[ansible.cfg](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Ansible/ansible.cfg)
+-[filebeat-playbook](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml)
+-[filebeatconfig](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Ansible/filebeatconfig.yml)
+-[hosts](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Ansible/hosts)
+-[install-elk](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Ansible/install-elk.yml)
+-[metricbeatconfig](metricbeatconfig.yml)
+-[metricbeatplaybook](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Ansible/metricbeatplaybook.rtf)
+
 
 This document contains the following details:
 
@@ -75,9 +84,9 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
+ ![runningdockerps](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Diagrams/runningdockerps.png)
  
-
- Images/ runningdockerps.png
+[runningdockerps](https://github.com/badiea3000/Elk-Stack-Project/blob/main/Diagrams/runningdockerps.png)
 
 ### Target Machines & Beats
 
